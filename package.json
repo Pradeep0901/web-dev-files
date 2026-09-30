@@ -1,0 +1,16 @@
+{
+  "name": "web-dev-files",
+  "version": "1.0.0",
+  "description": "Simple web app for deployment and HTTP validation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "validate": "curl -I http://localhost:3000"
+  },
+  "keywords": [
+    "web",
+    "deployment",
+    "validation"
+  ],
+  "license": "MIT"
+}
